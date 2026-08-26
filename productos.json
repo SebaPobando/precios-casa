@@ -1,0 +1,266 @@
+{
+  "moneda": "CLP",
+  "productos": [
+    {
+      "id": "aire-acondicionado",
+      "nombre": "Aire acondicionado",
+      "tienda": "Moreto",
+      "url": "https://www.moretoclima.cl/inicio/aire-acondicionado-daikin-inverter-24000-btu-wifi",
+      "precio_referencia": 700000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "refrigerador",
+      "nombre": "Refrigerador",
+      "tienda": "LG",
+      "url": "https://www.lg.com/cl/refrigeradores/bottom-freezer/gb37bpt/",
+      "precio_referencia": 450000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "lavadora-secadora",
+      "nombre": "Lavadora/Secadora",
+      "tienda": "LG",
+      "url": "https://www.lg.com/cl/lavadoras/lavadoras-carga-frontal/wd12vvc4s6c/",
+      "precio_referencia": 460000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "lavaplatos",
+      "nombre": "Lavaplatos",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/combo-lavaplatos-empotra-80x45cm-acero-inoxidable-fullequipo/up/MLCU3483088601",
+      "precio_referencia": 100000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "encimera-horno-campana",
+      "nombre": "Encimera/Horno/Campana",
+      "tienda": "Ursus Trotter",
+      "url": "https://www.ursustrotter.cl/kit-empotrable-g4-gas-licuado-ff60-inox-1m-horno-electrico-epc4-dl",
+      "precio_referencia": 350000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "loza",
+      "nombre": "Loza",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/set-vajilla-18-piezas-ceramica-verde-linea-rustica/up/MLCU4047661444",
+      "precio_referencia": 60000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "cubiertos",
+      "nombre": "Cubiertos",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/juego-de-cubiertos-de-24-piezas-de-acero-inoxidable-con-cuchillos-para-asado-tramontina-cosmos/p/MLC33581817",
+      "precio_referencia": 30000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "mesa-de-centro",
+      "nombre": "Mesa de Centro",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/mesa-de-centro-forma-nube-irregular-premium-blanca/up/MLCU3935169525?pdp_filters=item_id%3AMLC3940390022",
+      "precio_referencia": 200000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "sofa",
+      "nombre": "Sofá",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/sofa-cama-convertible-con-marco-de-forma-fija-y-reposabrazos-extraibles-sofa-modular-de-pana-sofa-plegable-para-espacios-pequenos-no-necesita-montaje-en-verde-incluye-2-almohadas/p/MLC75488077?pdp_filters=item_id%3AMLC4191867618",
+      "precio_referencia": 360000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "mesa-de-comedor",
+      "nombre": "Mesa de comedor",
+      "tienda": "Mamá Compra",
+      "url": null,
+      "precio_referencia": null,
+      "seguir": false,
+      "nota": "Sin link en el Excel: agrégalo aquí cuando lo tengas."
+    },
+    {
+      "id": "sillas-de-comedor",
+      "nombre": "Sillas de comedor",
+      "tienda": "Mamá Compra",
+      "url": null,
+      "precio_referencia": null,
+      "seguir": false,
+      "nota": "Sin link en el Excel: agrégalo aquí cuando lo tengas."
+    },
+    {
+      "id": "cortinas-rollers",
+      "nombre": "Cortinas / Rollers",
+      "tienda": "Aún por ver",
+      "url": null,
+      "precio_referencia": 300000,
+      "seguir": false,
+      "nota": "Sin link en el Excel: agrégalo aquí cuando lo tengas."
+    },
+    {
+      "id": "veladores",
+      "nombre": "Veladores",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/mesa-auxiliar-azul-moderna-decorativa-de-41cm/up/MLCU3761072599?pdp_filters=item_id%3AMLC1845493229",
+      "precio_referencia": 60000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "robot-aspiradora-mopa",
+      "nombre": "Robot Aspiradora/Mopa",
+      "tienda": "Xiaomi",
+      "url": "https://www.mi.com/cl/product/xiaomi-robot-vacuum-h50-pro/",
+      "precio_referencia": 450000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "aspiradora",
+      "nombre": "Aspiradora",
+      "tienda": "Xiaomi",
+      "url": "https://www.mi.com/cl/product/xiaomi-vacuum-cleaner-p30/",
+      "precio_referencia": 70000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "microondas",
+      "nombre": "Microondas",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/microondas-negro-midea-mmp20m711/up/MLCU340380548?pdp_filters=item_id%3AMLC1471450915",
+      "precio_referencia": 60000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "hervidor",
+      "nombre": "Hervidor",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/hervidor-electrico-17l-panel-digital-mek60/up/MLCU4251631057",
+      "precio_referencia": 40000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "ollas-y-sartenes",
+      "nombre": "Ollas y Sartenes",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/bateria-de-cocina-chef-choice-de-10-piezas-con-antiadherente-de-granito-verde-agua/p/MLC32994776",
+      "precio_referencia": 60000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "cuchillos-de-cocina",
+      "nombre": "Cuchillos de cocina",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/taco-4-pcs-wayu-color-negro/p/MLC29423287?pdp_filters=item_id%3AMLC1621707063",
+      "precio_referencia": 50000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "vasos",
+      "nombre": "Vasos",
+      "tienda": "IKEA",
+      "url": "https://www.ikea.com/cl/es/p/godis-vaso-vidrio-incoloro-20092107/",
+      "precio_referencia": 15000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "tazas",
+      "nombre": "Tazas",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/pack-4-tazas-doble-pared-vidrio-350ml-cafe-te-capuccino/up/MLCU3095957558",
+      "precio_referencia": 25000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "basurero",
+      "nombre": "Basurero",
+      "tienda": "IKEA",
+      "url": "https://www.ikea.com/cl/es/p/knodd-basurero-con-tapa-gris-90315312/",
+      "precio_referencia": 40000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "alfombra",
+      "nombre": "Alfombra",
+      "tienda": "IKEA",
+      "url": "https://www.ikea.com/cl/es/p/stoense-alfombra-pelo-corto-rosado-claro-40629150/",
+      "precio_referencia": 100000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "plumon",
+      "nombre": "Plumón",
+      "tienda": "Cannon Home",
+      "url": "https://cannonhome.cl/plumon-2-plazas-soft-fiber.html",
+      "precio_referencia": 25000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "almohadas",
+      "nombre": "Almohadas",
+      "tienda": "Cannon Home",
+      "url": "https://cannonhome.cl/almohada-viscoelastica-ergo-50x70-cm.html",
+      "precio_referencia": 50000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "funda-plumon",
+      "nombre": "Funda Plumón",
+      "tienda": "Cannon Home",
+      "url": "https://cannonhome.cl/funda-plumon-2-plazas-verde.html",
+      "precio_referencia": 45000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "sabanas",
+      "nombre": "Sábanas",
+      "tienda": "Cannon Home",
+      "url": "https://cannonhome.cl/sabanas-2-plazas-200-hilos-liso-menta.html",
+      "precio_referencia": 90000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "toallas",
+      "nombre": "Toallas",
+      "tienda": "MercadoLibre",
+      "url": "https://www.mercadolibre.cl/set-6-toallas-cannon-grafito-mano--bano--visita/up/MLCU4290509773?pdp_filters=item_id%3AMLC4179312108",
+      "precio_referencia": 30000,
+      "seguir": true,
+      "nota": ""
+    },
+    {
+      "id": "cesto-para-ropa",
+      "nombre": "Cesto para ropa",
+      "tienda": "IKEA",
+      "url": "https://www.ikea.com/cl/es/p/branaes-canasto-de-ropa-sucia-forrado-ratan-20214731/",
+      "precio_referencia": 40000,
+      "seguir": true,
+      "nota": ""
+    }
+  ]
+}
