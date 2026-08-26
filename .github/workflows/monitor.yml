@@ -1,0 +1,47 @@
+name: Revisar precios
+
+on:
+  schedule:
+    # 09:00 y 21:00 en Chile (invierno). GitHub usa UTC.
+    - cron: "0 13 * * *"
+    - cron: "0 1 * * *"
+  workflow_dispatch:        # botón para correrlo a mano
+
+permissions:
+  contents: write           # para guardar el historial de precios en el repo
+
+concurrency:
+  group: monitor-precios
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Revisar precios
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python monitor.py
+
+      - name: Guardar historial
+        run: |
+          git config user.name  "bot-precios"
+          git config user.email "bot-precios@users.noreply.github.com"
+          git add precios.json
+          git diff --staged --quiet || git commit -m "precios $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase --autostash || true
+          git push
