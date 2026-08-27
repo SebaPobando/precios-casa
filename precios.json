@@ -3,7 +3,7 @@
     "aire-acondicionado": {
       "nombre": "Aire acondicionado",
       "precio": 619990.0,
-      "visto": "2026-08-27 06:48",
+      "visto": "2026-08-27 18:41",
       "minimo": 619990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -16,21 +16,21 @@
       ]
     },
     "refrigerador": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "lavadora-secadora": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "lavaplatos": {
-      "fallos_seguidos": 2,
-      "ultimo_error": "navegador: TimeoutError"
+      "fallos_seguidos": 3,
+      "ultimo_error": "precio no encontrado en la página"
     },
     "encimera-horno-campana": {
       "nombre": "Encimera/Horno/Campana",
       "precio": 3499900.0,
-      "visto": "2026-08-27 06:49",
+      "visto": "2026-08-27 18:42",
       "minimo": 3499900.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -43,53 +43,53 @@
       ]
     },
     "loza": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "cubiertos": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "mesa-de-centro": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "sofa": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "veladores": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "robot-aspiradora-mopa": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "aspiradora": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "microondas": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "hervidor": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "ollas-y-sartenes": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "cuchillos-de-cocina": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "vasos": {
       "nombre": "Vasos",
       "precio": 7990.0,
-      "visto": "2026-08-27 06:50",
+      "visto": "2026-08-27 18:43",
       "minimo": 7990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -102,13 +102,13 @@
       ]
     },
     "tazas": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "basurero": {
       "nombre": "Basurero",
       "precio": 20990.0,
-      "visto": "2026-08-27 06:51",
+      "visto": "2026-08-27 18:43",
       "minimo": 20990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -123,7 +123,7 @@
     "alfombra": {
       "nombre": "Alfombra",
       "precio": 89990.0,
-      "visto": "2026-08-27 06:51",
+      "visto": "2026-08-27 18:43",
       "minimo": 89990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -137,23 +137,27 @@
     },
     "plumon": {
       "nombre": "Plumón",
-      "precio": 24990.0,
-      "visto": "2026-08-27 06:51",
-      "minimo": 24990.0,
-      "minimo_fecha": "2026-08-26",
+      "precio": 19990.0,
+      "visto": "2026-08-27 18:43",
+      "minimo": 19990.0,
+      "minimo_fecha": "2026-08-27",
       "metodo": "de_json_ld",
       "fallos_seguidos": 0,
       "historial": [
         [
           "2026-08-26 14:00",
           24990.0
+        ],
+        [
+          "2026-08-27 18:43",
+          19990.0
         ]
       ]
     },
     "almohadas": {
       "nombre": "Almohadas",
       "precio": 23990.0,
-      "visto": "2026-08-27 06:51",
+      "visto": "2026-08-27 18:43",
       "minimo": 23990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -168,7 +172,7 @@
     "funda-plumon": {
       "nombre": "Funda Plumón",
       "precio": 39990.0,
-      "visto": "2026-08-27 06:51",
+      "visto": "2026-08-27 18:43",
       "minimo": 39990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -182,27 +186,31 @@
     },
     "sabanas": {
       "nombre": "Sábanas",
-      "precio": 41990.0,
-      "visto": "2026-08-27 06:51",
-      "minimo": 41990.0,
-      "minimo_fecha": "2026-08-26",
+      "precio": 29990.0,
+      "visto": "2026-08-27 18:43",
+      "minimo": 29990.0,
+      "minimo_fecha": "2026-08-27",
       "metodo": "de_json_ld",
       "fallos_seguidos": 0,
       "historial": [
         [
           "2026-08-26 14:00",
           41990.0
+        ],
+        [
+          "2026-08-27 18:43",
+          29990.0
         ]
       ]
     },
     "toallas": {
-      "fallos_seguidos": 2,
+      "fallos_seguidos": 3,
       "ultimo_error": "precio no encontrado en la página"
     },
     "cesto-para-ropa": {
       "nombre": "Cesto para ropa",
       "precio": 39990.0,
-      "visto": "2026-08-27 06:51",
+      "visto": "2026-08-27 18:43",
       "minimo": 39990.0,
       "minimo_fecha": "2026-08-26",
       "metodo": "de_json_ld",
@@ -215,5 +223,5 @@
       ]
     }
   },
-  "actualizado": "2026-08-27 06:51"
+  "actualizado": "2026-08-27 18:43"
 }
